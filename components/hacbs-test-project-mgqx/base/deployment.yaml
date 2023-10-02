@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-mgqx
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/quay-or-not-to-quay/nbe-e2e-iiiv-tenant/integ-app-jnez/hacbs-test-project-mgqx@sha256:4f3a50c404caa6c8a85f82163fde97934ce28c821b83d0f282904d3a4930a8de
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
